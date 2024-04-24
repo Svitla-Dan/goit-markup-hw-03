@@ -89,8 +89,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
   display: block;
+}
+.header-logo {
+  margin-right: 76px;
   padding: 24px 0;
 }
 .logo-studio-header {
@@ -138,11 +140,6 @@ body {
 }
 /* =========== hero =========== */
 .hero {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 48px;
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: #2e2f42;
@@ -217,16 +214,10 @@ body {
   justify-content: center;
 }
 .team-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
   background-color: #fff;
 }
 .team-member-name {
